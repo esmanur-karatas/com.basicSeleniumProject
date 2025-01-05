@@ -25,7 +25,7 @@ public class AmazonSearchboxProject {
         searchBox.sendKeys("Nutella", Keys.ENTER);
         //Nutella yazdıktan sonra Entera basarak arama işlemini yapın
 
-        //Bulunan sonuç sayısını yazdırın
+        //Bulunan sonuç metnini yazdırın
         WebElement resultText = driver.findElement(By.xpath("(//h2//span)[1]"));
         WebElement result = driver.findElement(By.xpath("(//h2//span)[3]"));
         System.out.println("Arama Sonucu: " + resultText.getText() + result.getText());
