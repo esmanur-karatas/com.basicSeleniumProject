@@ -2,7 +2,9 @@ package FacebookLoginTest;
 
 public class FacebookLoginTest {
     public static void main(String[] args) {
+
         //Facebook sayfasına git
+
         //cookies çıkarsa kabul et butonuna bas
         //e posta kutusuna rastgele bir mail gir
         //şifre kısmına bir rastgele şifre gir
